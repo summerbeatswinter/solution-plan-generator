@@ -1,0 +1,19 @@
+<!--
+  templateType: page
+  isAvailableForNewContent: true
+  label: Solution Architecture Page
+  screenshotPath: ../assets/sprocket.svg
+-->
+{% extends "./layouts/base.hubl.html" %}
+
+{% block body %}
+<main>
+  {% module "solution_architecture_form"
+    path="../components/modules/SolutionArchitectureCreator"
+    title="Solution Architecture Presentation Creator"
+    description="<p>Create a custom solution architecture presentation tailored to your customer's needs. Our AI will generate a comprehensive, professional presentation based on your input.</p>"
+    webhookUrl="https://hook.eu2.make.com/bw0cwucdpcprut2phrgxgax2anji43bb"
+    portalId="6458043"
+  %}
+</main>
+{% endblock body %}

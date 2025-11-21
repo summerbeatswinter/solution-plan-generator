@@ -1,6 +1,7 @@
 # Solution Plan Generator
 
 A HubSpot CMS React application that creates custom solution architecture presentations based on customer requirements and project context.
+Current front-end URL: https://6458043.hs-sites.com/sa-presentation-creator
 
 ## 🎯 Overview
 
